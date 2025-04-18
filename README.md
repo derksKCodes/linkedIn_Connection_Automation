@@ -25,9 +25,9 @@ This Python script uses Selenium to automate LinkedIn outreach, helping you to:
 
 ## 🛠️ Quick Start
 
-1.  **Prerequisites:** Python 3.6+, Chrome, ChromeDriver.
-2.  **Install:** `pip install selenium getpass`
-3.  **Run:** `python your_script_name.py`
+1.  **Prerequisites:** Python 3.6+, Chrome, ChromeDriver, undetectableChromeDriver.
+2.  **Install:** `pip install selenium getpass setuptools`
+3.  **Run:** `python linkedin_automation.py`
 
 ## ⚠️ Use Responsibly
 
@@ -40,4 +40,5 @@ This Python script uses Selenium to automate LinkedIn outreach, helping you to:
 
 ## 📞 Contact
 
-[Your Name/Company Name]
+🌐 [\[My Portfolio\]](https://derkskcodes.github.io/Portfolio-Web/)
+🔗 [LinkedIn Profile](https://ke.linkedin.com/in/derks01)
