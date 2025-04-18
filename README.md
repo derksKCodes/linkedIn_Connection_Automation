@@ -40,5 +40,5 @@ This Python script uses Selenium to automate LinkedIn outreach, helping you to:
 
 ## 📞 Contact
 
-🌐 [\[My Portfolio\]](https://derkskcodes.github.io/Portfolio-Web/)
-🔗 [LinkedIn Profile](https://ke.linkedin.com/in/derks01)
+🌐 [My Portfolio](https://derkskcodes.github.io/Portfolio-Web/)
+🔗 [LinkedIn ](https://ke.linkedin.com/in/derks01)
