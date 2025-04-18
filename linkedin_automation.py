@@ -1,13 +1,22 @@
 from selenium import webdriver
+import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 from getpass import getpass
 import time
 
+# Setup undetected Chrome
+options = uc.ChromeOptions()
+options.add_argument("--disable-blink-features=AutomationControlled")
+
+driver = uc.Chrome(options=options)
+
+
 # --- Setup WebDriver ---
-driver = webdriver.Chrome()
+driver = uc.Chrome()
 driver.get("https://www.linkedin.com/login")
+time.sleep(5)  # wait for page to load
 
 # --- Ask for Login Credentials ---
 email = input("Enter your LinkedIn email: ")
@@ -22,6 +31,15 @@ driver.find_element(By.ID, "password").send_keys(password)
 driver.find_element(By.XPATH, '//button[@type="submit"]').click()
 
 time.sleep(5)  # wait for login
+
+# --- Check if login failed ---
+try:
+    error_box = driver.find_element(By.CLASS_NAME, "alert")
+    print("❌ Login failed: Incorrect email or password.")
+    driver.quit()
+    exit()
+except NoSuchElementException:
+    print("✅ Login successful!")
 
 # --- Navigate to Network Page ---
 driver.get("https://www.linkedin.com/mynetwork/")
