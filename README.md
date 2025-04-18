@@ -1,4 +1,4 @@
-# 🔗 LinkedIn Automation Tool: Supercharge Your Network
+## 🚀 LinkedIn Automation Tool: Supercharge Your Network
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/Selenium-Automated%20Browser-brightgreen.svg)](https://www.selenium.dev/)
