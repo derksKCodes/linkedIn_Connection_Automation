@@ -38,7 +38,8 @@ This Python script uses Selenium to automate LinkedIn outreach, helping you to:
 
 [MIT License](LICENSE)
 
-## 📞 Contact
+## 📬 Let’s Connect!
 
-🌐 [My Portfolio](https://derkskcodes.github.io/Portfolio-Web/)
-🔗 [LinkedIn ](https://ke.linkedin.com/in/derks01)
+* 🐙 [GitHub](github.com/derksKCodes)
+* 🔗 [LinkedIn ](https://ke.linkedin.com/in/derks01?trk=people-guest_people_search-card)
+* 🌍 [My Portfolio](https://derkskcodes.github.io/Portfolio-Web/)
